@@ -1,9 +1,18 @@
 import Feature from './components/usestate'
 import Counter from './components/counter'
+import Nav from './components/navbar'
 
 export default function App(){
   return(
     <>
+
+    <Nav/>
+
+
+
+
+
+
     <div>
       <div class="relative group inline-block">
 
