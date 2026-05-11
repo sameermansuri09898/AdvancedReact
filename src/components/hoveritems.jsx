@@ -31,7 +31,7 @@ export default function Navbar(){
 
 
       <div className="menu flex gap-5">
-        <span className='font-bold cursor-pointer'><House size={22} /></span>
+        <span className='font-bold cursor-pointer'><House size={22}/></span>
         <span className='font-bold cursor-pointer'><User  size={22}/></span>
         <span className='font-bold cursor-pointer'><Settings /></span>
       </div>

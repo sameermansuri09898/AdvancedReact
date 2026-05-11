@@ -1,12 +1,10 @@
 export default function Asso(){
   return(
-    <>
-    
-    
-          <div className="dropdown fixed left-0 top-20 hidden group-hover:block w-screen bg-white shadow-2xl  z-50">
+    <>    
+
+          <div className="dropdown fixed left-0 top-20 hidden group-hover:block w-screen bg-white shadow-2xl shadow-taupe-50 z-50">
           
           <div className="max-w-7xl mx-auto  py-1 px-10 grid grid-cols-5 gap-5">
-
             <div className="trending-items">
             <h3 className="text-lg font-semibold mb-4">Categories</h3>
       <ul className="space-y-3 text-gray-600">
@@ -18,7 +16,7 @@ export default function Asso(){
         <li className="hover:text-black cursor-pointer">Accessories</li>
       </ul>
             </div>
-
+    
             <div className="popular">
            <h3 className="text-lg font-semibold mb-4">Accessories</h3>
       <ul className="space-y-3 text-gray-600">
@@ -30,9 +28,8 @@ export default function Asso(){
         <li className="hover:text-black cursor-pointer">Caps & Hats</li>
       </ul>
             </div>
-
-
      {/* Featured Product */}
+
     <div className="col-span-2">
       <h3 className="text-lg font-semibold mb-4">Trending Collection</h3>
 
