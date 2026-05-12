@@ -4,6 +4,10 @@ import Nav from './components/navbar'
 import Navbar from './components/hoveritems'
 import Mob from './components/mobile'
 import Product from './components/product'
+import Api from './components/fetchapi'
+
+
+
 export default function App(){
   return(
     <>
@@ -11,6 +15,7 @@ export default function App(){
     {/* <Navbar/> */}
    <Mob/>
    <Product/>
+   <Api/>
     </div>
     </>
   )
