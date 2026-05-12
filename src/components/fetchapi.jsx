@@ -9,7 +9,7 @@ export default function Api(){
     fetch("https://jsonplaceholder.typicode.com/users")
     .then((res)=>res.json())
     .then((data)=>setUser(data))
-  },[])
+  },[]);
   
   return(
     <div className="users">
