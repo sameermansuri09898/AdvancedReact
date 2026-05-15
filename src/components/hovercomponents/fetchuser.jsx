@@ -7,7 +7,7 @@ export default function Fetchingdata(){
   const [error,seterror] = useState("");
 
   useEffect(()=>{
-    const controller= new AbortController()
+    const controller = new AbortController()
 
     const Fetchuser = async ()=>{
 
@@ -42,7 +42,7 @@ export default function Fetchingdata(){
       if(err.name !=="Abortname"){
         seterror(err.messsage || "something gone wrongg");
       }
-      
+
     }finally{
       setloading(false)
     }
