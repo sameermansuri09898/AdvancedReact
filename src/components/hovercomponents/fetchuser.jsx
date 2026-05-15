@@ -42,7 +42,7 @@ export default function Fetchingdata(){
       if(err.name !=="Abortname"){
         seterror(err.messsage || "something gone wrongg");
       }
-
+      
     }finally{
       setloading(false)
     }
