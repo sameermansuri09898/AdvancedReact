@@ -5,7 +5,7 @@ import Navbar from './components/hoveritems'
 import Mob from './components/mobile'
 import Product from './components/product'
 import Api from './components/fetchapi'
-
+import ProductSwiper from './components/swipercards'
 
 
 export default function App(){
@@ -16,6 +16,7 @@ export default function App(){
    <Mob/>
    <Product/>
    <Api/>
+   <ProductSwiper/>
     </div>
     </>
   )
