@@ -27,7 +27,7 @@ export default function Nav(){
         <li className="hover:text-black cursor-pointer">Kids Wear</li>
         <li className="hover:text-black cursor-pointer">Footwear</li>
         <li className="hover:text-black cursor-pointer">Beauty Products</li>
-        <li className="hover:text-black cursor-pointer">Accessories</li>
+        <li className="hover:text-black cursor-pointer">Accessories Ks</li>
       </ul>
     </div>
 

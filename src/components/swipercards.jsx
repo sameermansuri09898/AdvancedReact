@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+
 export default function ProductSwiper() {
   const products = [
     {
@@ -37,28 +38,28 @@ export default function ProductSwiper() {
       title: "Headphones",
       price: "₹1499",
       oldPrice: "₹2999",
-      img: "https://images.unsplash.com/photo-1518444028785-8f5c56a77f9b",
+      img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
     },
     {
       id: 6,
       title: "Headphones",
       price: "₹1499",
       oldPrice: "₹2999",
-      img: "https://images.unsplash.com/photo-1518444028785-8f5c56a77f9b",
+      img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
     },
     {
       id: 7,
       title: "Headphones",
       price: "₹1499",
       oldPrice: "₹2999",
-      img: "https://images.unsplash.com/photo-1518444028785-8f5c56a77f9b",
+      img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
     },
     {
       id: 8,
       title: "Headphones",
       price: "₹1499",
       oldPrice: "₹2999",
-      img: "https://images.unsplash.com/photo-1518444028785-8f5c56a77f9b",
+      img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
     },
   ];
 
@@ -90,7 +91,7 @@ export default function ProductSwiper() {
                 />
               </div>
 
-              {/* Content */}
+          
               <div className="mt-3">
                 <h3 className="text-sm font-medium">{item.title}</h3>
 
@@ -109,7 +110,7 @@ export default function ProductSwiper() {
                       parseInt(item.price.replace("₹", "")) /
                         parseInt(item.oldPrice.replace("₹", ""))) *
                       100
-                  )}
+                  )}  
                   % off
                 </p>
               </div>
